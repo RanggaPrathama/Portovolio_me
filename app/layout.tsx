@@ -7,7 +7,7 @@ import Navbar from "@/components/main/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio Of Shreyaskar Upadhyay",
+  title: "Portfolio Of RanggaDev",
   description: "This Is My Portfolio",
   icons: {
     icon: "/NavLogo.png",
