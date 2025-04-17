@@ -385,30 +385,49 @@ export const sampleArcs = [
 ];
 
 export const projects = [
+  
   {
     id: 1,
-    title: "Talk-A-Tive",
-    des: "A Seamless End To End Chat App Designed for Both 1 to 1 And Group Converstions With Real Time Facilities",
-    img: "/Talk-A-Tive.png",
-    iconLists: ["/react.png", "/tailwind.png", "/Socket.png", "/express.png", "/node-js.png"],
-    link: "https://talk-a-tive-vvj9.onrender.com/",
+    title: "Simedi – Inventory Management",
+    des: "A comprehensive inventory management system developed for BUMD Perumda Kahyangan Jember. Simedi streamlines the tracking, procurement, and reporting of medical inventory, ensuring accuracy, efficiency, and transparency in daily operations.",
+    img: "/portofolio_1_.png",
+    iconLists: ["/Laravel-Logo.png", "/tailwind.png", "logo-mysql.png", "/css.png", "/html.png"],
+    link: "https://simedi.pdpkahyanganjember.id/", 
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/Frame 1.png",
-    iconLists: ["/next.png", "/tailwind.png", "/ts.png", "/figma.png", "/css.png"],
-    link: "/ui.yoom.com",
+    title: "Kampus Kita - Student Information System",
+    des: "An integrated platform developed for Universitas Airlangga to centralize student data, academic schedules, announcements, and administrative services — improving the overall digital campus experience.",
+    img: "/portofolio-2.png",
+    iconLists: ["/go.png",  "/figma.png","/flutter-logo.png" ],
+    link: "",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/Frame 1.png",
-    iconLists: ["/react.png", "/tailwind.png", "/ts.png", "js.png", "/css.png"],
-    link: "/ui.aiimg.com",
+    title: "ChatApp - Real-Time Messaging Platform",
+    des: "A modern real-time chat application that supports one-on-one and group conversations, complete with user authentication, live message updates, and a sleek UI — designed to enhance communication and collaboration.",
+    img: "/portofolio-3.png",
+    iconLists: ["/react.png", "/tailwind.png", "/ts.png", "/go.png", "/css.png"],
+    link: "",
   },
+  {
+    id: 4,
+    title: "StrideFlex - Mobile E-Commerce App",
+    des: "A sleek and intuitive mobile e-commerce application dedicated to sneaker enthusiasts. StrideFlex offers seamless browsing, secure checkout, real-time order tracking, and personalized product recommendations to enhance the shopping experience.",
+    img: "/portofolio-4.png", 
+    iconLists: ["/flutter-logo.png", "/express.png", "/figma.png"],
+    link: "", 
+  },
+  {
+    id: 5,
+    title: "Odoo ERP - DevOps Implementation Project",
+    des: "Implemented and managed the deployment pipeline of Odoo ERP for enterprise-level resource planning. Ensured secure server configuration, automated deployment processes, backup strategies, and performance monitoring across staging and production environments.",
+    img: "/portofolio-5.png", 
+    iconLists: [ "/odoo_logo.png"],
+    link: "", 
+  }
+  
+  
 ];
 
 export const Skill_data = [
@@ -497,18 +516,18 @@ export const Skill_data = [
     {
       name: "Git Hub",
       src: "/Git.png",
-      url: "https://github.com/shreyaskar-1",
+      url: "https://github.com/RanggaPrathama",
     },
     {
       name: "LinkedIn",
       src: "/linkedin.png",
-      url: "https://www.linkedin.com/in/shreyaskar-upadhyay-3828ab275/",
+      url: "https://www.linkedin.com/in/rangga-prathama-05a066291/",
     },
-    {
-      name: "Instagram",
-      src: "/instagram.png",
-      url: "https://www.instagram.com/say_yyaass/",
-    },
+    // {
+    //   name: "Instagram",
+    //   src: "/instagram.png",
+    //   url: "https://www.instagram.com/say_yyaass/",
+    // },
   ];
   
   

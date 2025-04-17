@@ -2,7 +2,11 @@
 
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { slideInFromLeft, slideInFromRight, slideInFromTop } from "@/utils/motion";
+import {
+  slideInFromLeft,
+  slideInFromRight,
+  slideInFromTop,
+} from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import { CardContainer, CardItem } from "./CardComponents";
 import Image from "next/image";
@@ -10,10 +14,14 @@ import Image from "next/image";
 const HeroContent: React.FC = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const [text, setText] = useState('');
+  const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["FullStack Developer", "MernStack Developer", "Web Developer"];
+  const toRotate = [
+    "FullStack Developer",
+    "Mobile Developer",
+    "Web Developer",
+  ];
   const period = 2000;
 
   useEffect(() => {
@@ -41,7 +49,7 @@ const HeroContent: React.FC = () => {
       setIsDeleting(true);
       setIndex((prevIndex) => prevIndex - 1);
       setDelta(period);
-    } else if (isDeleting && updatedText === '') {
+    } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
@@ -85,18 +93,22 @@ const HeroContent: React.FC = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          This is Shreyaskar Upadhyay, and I&apos;m a Full Stack Developer focused on
-          building scalable, user-centric digital solutions. Explore my projects and
-          skills to see how I turn complex ideas into efficient applications.
+          Hi, I&apos;m Rangga Prathama N.H, a graduate of D4 Informatics
+          Engineering from Universitas Airlangga. I&apos;m a Full Stack
+          Developer passionate about building efficient, scalable, and
+          user-friendly digital solutions. With expertise in both frontend and
+          backend development, I turn complex ideas into impactful applications.
+          Feel free to explore my portfolio to see how I blend technology and
+          creativity in every project.
         </motion.p>
 
         <motion.a
-          href="/Shreyaskar Upadhyay Resume.pdf"
+          href="/CV_RanggaPrathama_.pdf"
           download
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg w-[220px] max-w-[260px]"
         >
-          Download Resume
+          Download CV
         </motion.a>
       </div>
 
@@ -113,7 +125,7 @@ const HeroContent: React.FC = () => {
             className="w-[18rem] h-[25rem] mt-0 lg:w-[25rem] lg:h-[38rem] lg:mt-10"
           >
             <Image
-              src="/shrey_sit.jpg"
+              src="/fotoku_.jpg"
               height={1000}
               width={1000}
               className="h-full w-full object-cover rounded-full group-hover/card:shadow-xl"
